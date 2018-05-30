@@ -118,6 +118,7 @@
     <None Include="medUWP_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\blank.PNG" />
     <Content Include="Assets\emoji-1.png" />
     <Content Include="Assets\emoji-2.png" />
     <Content Include="Assets\emoji-3.png" />

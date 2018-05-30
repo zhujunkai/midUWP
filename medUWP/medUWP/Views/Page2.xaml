@@ -32,12 +32,12 @@
 					<RowDefinition Height="70"/>
 				</Grid.RowDefinitions>
 			</Grid>
-			<ComboBox Width="100" HorizontalAlignment="Right" Margin="0,50,100,0" Header="Month">
-				<ComboBoxItem Content="January"  IsSelected="True"/>
+			<ComboBox x:Name="MonthCombo" Width="100" HorizontalAlignment="Right" Margin="0,50,100,0" Header="Month" SelectionChanged="Month_SelectionChanged">
+				<ComboBoxItem Content="January"/>
 				<ComboBoxItem Content="February" />
 				<ComboBoxItem Content="March" />
 				<ComboBoxItem Content="April" />
-				<ComboBoxItem Content="May" />
+				<ComboBoxItem Content="May" IsSelected="True"/>
 				<ComboBoxItem Content="June" />
 				<ComboBoxItem Content="July" />
 				<ComboBoxItem Content="August" />

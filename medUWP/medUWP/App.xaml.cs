@@ -28,12 +28,17 @@ namespace medUWP
 		/// 已执行，逻辑上等同于 main() 或 WinMain()。
 		/// </summary>
 		public emojis Emoji;
+		public Diarys my_Diarys;
+		public bool is_update;
         public App()
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
 			Emoji = new emojis();
-        }
+			my_Diarys = new Diarys();
+			is_update = false;
+
+		}
 
         /// <summary>
         /// 在应用程序由最终用户正常启动时进行调用。

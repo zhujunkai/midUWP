@@ -59,7 +59,8 @@
 				<AppBarButton Icon="Pictures" Label="select" Grid.Row="4" VerticalAlignment="Bottom" HorizontalAlignment="Right" Click="img_click"/>
 
 				<Button Content="Clear" Height="40" Width="100" Grid.Row="5" HorizontalAlignment="Center" Click="Clear_click"/>
-				<Button Content="Save" Height="40" Width="100" Grid.Row="5" HorizontalAlignment="Right"/>
+				<Button x:Name="save_button" Content="Save" Height="40" Width="100" Grid.Row="5" HorizontalAlignment="Right" Click="Save_click"/>
+				<AppBarButton x:Name="delete_button" Icon="Delete" Label="delete" Grid.Row="5" HorizontalAlignment="Left"  Click="delete_button_Click" VerticalAlignment="Center"  Visibility="Collapsed"/>
 			</Grid>
 		</Grid>
 
