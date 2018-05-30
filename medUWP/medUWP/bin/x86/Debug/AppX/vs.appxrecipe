@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>F30006CB527BB642F492587FD89AE7948B42C7B68B4B88EAAF64E8A3C891B592</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>E131726230D490A3749ECC3332B1851998C07E96639C4BC17C132C7989436CD1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2115694c-2b99-47bd-b855-95b2e150332f_1.0.0.0_x86__basesrm4djdag</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2115694c-2b99-47bd-b855-95b2e150332f_basesrm4djdag!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2115694c-2b99-47bd-b855-95b2e150332f</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-30T05:45:01.738</Modified>
+      <Modified>2018-05-30T09:52:30.084</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\medUWP.exe">
       <PackagePath>entrypoint\medUWP.exe</PackagePath>
-      <Modified>2018-05-30T05:45:00.133</Modified>
+      <Modified>2018-05-30T09:52:25.620</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\NuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -499,6 +499,10 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-11T14:15:04.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UAP\v0.8.0.0\ExtensionSDKs\SQLite.UWP.2015\3.23.1\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2018-04-16T09:24:26.318</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhujunkai\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
       <PackagePath>SQLitePCL.Ext.dll</PackagePath>
       <Modified>2014-12-09T03:04:52.000</Modified>
@@ -559,7 +563,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\medUWP.xr.xml">
       <PackagePath>medUWP.xr.xml</PackagePath>
-      <Modified>2018-05-30T05:09:02.230</Modified>
+      <Modified>2018-05-30T09:52:24.768</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -568,11 +572,11 @@
     <AppxPackagedFile Include="C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-05-30T05:20:15.330</Modified>
+      <Modified>2018-05-30T09:52:28.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zhujunkai\source\repos\medUWP\medUWP\bin\x86\Debug\Core\medUWP.exe">
       <PackagePath>medUWP.exe</PackagePath>
-      <Modified>2018-05-30T05:45:01.726</Modified>
+      <Modified>2018-05-30T09:52:30.062</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

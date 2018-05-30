@@ -43,12 +43,6 @@ namespace medUWP.Views
 			this.InitializeComponent();
 			make_btn(31);
 		}
-
-		private void move(object sender, RoutedEventArgs e)
-		{
-			int i = 0;
-			MainPage.NavMove(i);
-		}
 		private async void btn_Click(object sender, RoutedEventArgs e)
 		{
 			int position= int.Parse(((Button)sender).Name.Substring(6));
@@ -144,6 +138,11 @@ namespace medUWP.Views
 				calendar.Children.Add(myButton);
 				calendar.Children.Add(myText);
 			}
+		}
+
+		private void move(object sender, PointerRoutedEventArgs e)
+		{
+			MainPage.NavMove(0);
 		}
 	}
 }

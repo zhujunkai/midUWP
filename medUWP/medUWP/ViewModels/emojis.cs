@@ -17,13 +17,18 @@ namespace medUWP.ViewModels
 		public ObservableCollection<Emojitem> AllItems { get { return this.allItems; } }
 		public emojis()
 		{
-			Addemojis();
 		}
 		public async void Addemojis()
 		{
 			StorageFile file = await Package.Current.InstalledLocation.GetFileAsync("Assets\\emoji-1.png");
 			BitmapImage w_image = new BitmapImage(new Uri(file.Path, UriKind.Absolute));
-			this.allItems.Add(new Emojitem(w_image,"love"));
+			this.allItems.Add(new Emojitem(w_image,"Love"));
+			StorageFile file1 = await Package.Current.InstalledLocation.GetFileAsync("Assets\\emoji-2.png");
+			BitmapImage w_image2 = new BitmapImage(new Uri(file1.Path, UriKind.Absolute));
+			this.allItems.Add(new Emojitem(w_image2, "Happy"));
+			StorageFile file2 = await Package.Current.InstalledLocation.GetFileAsync("Assets\\emoji-3.png");
+			BitmapImage w_image3 = new BitmapImage(new Uri(file2.Path, UriKind.Absolute));
+			this.allItems.Add(new Emojitem(w_image3, "Crazy"));
 		}
 	}
 }

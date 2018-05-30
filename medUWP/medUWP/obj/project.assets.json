@@ -530,6 +530,9 @@
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
       },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
+      },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -3005,6 +3008,9 @@
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
       },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
+      },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -5350,6 +5356,9 @@
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
       },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
+      },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -7667,6 +7676,9 @@
         "runtime": {
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
+      },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
       },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
@@ -10022,6 +10034,9 @@
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
       },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
+      },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -12339,6 +12354,9 @@
         "runtime": {
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
+      },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
       },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
@@ -14693,6 +14711,9 @@
         "runtime": {
           "lib/netstandard1.2/System.Data.Common.dll": {}
         }
+      },
+      "System.Data.SQLite/1.0.108": {
+        "type": "package"
       },
       "System.Diagnostics.Contracts/4.0.1": {
         "type": "package",
@@ -21526,6 +21547,15 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
+    "System.Data.SQLite/1.0.108": {
+      "sha512": "QIh+GB+erDrvVIbEpEfVRF1U9fJOwmZCRyAPISDwmt8xn3vilM2xjEjr6hQBTI4a2uPxsn6cihT9BJwXAnM8eQ==",
+      "type": "package",
+      "path": "system.data.sqlite/1.0.108",
+      "files": [
+        "system.data.sqlite.1.0.108.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    },
     "System.Diagnostics.Contracts/4.0.1": {
       "sha512": "HvQQjy712vnlpPxaloZYkuE78Gn353L0SJLJVeLcNASeg9c4qla2a1Xq8I7B3jZoDzKPtHTkyVO7AZ5tpeQGuA==",
       "type": "package",
@@ -25734,7 +25764,8 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.10586": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.8",
-      "SQLitePCL >= 3.8.7.2"
+      "SQLitePCL >= 3.8.7.2",
+      "System.Data.SQLite >= 1.0.108"
     ]
   },
   "packageFolders": {
@@ -25784,6 +25815,10 @@
           "SQLitePCL": {
             "target": "Package",
             "version": "[3.8.7.2, )"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[1.0.108, )"
           }
         }
       }

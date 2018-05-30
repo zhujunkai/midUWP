@@ -24,5 +24,14 @@ namespace medUWP.Models
 			this.image = image;
 			this.emojiindex = emojiindex;
 		}
+		public Diaryitem(string id,string DiaryContent, string food, DateTime date, BitmapImage image, int emojiindex)
+		{
+			this.Id =id;
+			this.DiaryContent = DiaryContent;
+			this.food = food;
+			this.date = date;
+			this.image = image;
+			this.emojiindex = emojiindex;
+		}
 	}
 }

@@ -84,6 +84,8 @@ namespace medUWP
 		public MainPage()
 		{
 			this.InitializeComponent();
+			((App)App.Current).Emoji.Addemojis();
+			((App)App.Current).my_Diarys.readFromfile();
 			// 绑定导航菜单
 			NavMenuPrimaryListView.ItemsSource = navMenuPrimaryItem;
 			NavMenuSecondaryListView.ItemsSource = navMenuSecondaryItem;

@@ -46,7 +46,17 @@
 				<ComboBoxItem Content="November" />
 				<ComboBoxItem Content="December" />
 			</ComboBox>
-			<Button Width="100" Height="100" VerticalAlignment="Bottom" HorizontalAlignment="Center" Click="move" ></Button>
+			<Grid Height="50" Width="50" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,20,20" PointerPressed="move" >
+				<Ellipse x:Name="Picture" Height="50" Width="50" RenderTransformOrigin="0.5, 0.5">
+					<Ellipse.RenderTransform>
+						<CompositeTransform />
+					</Ellipse.RenderTransform>
+					<Ellipse.Fill>
+						<SolidColorBrush Color="AliceBlue"/>
+					</Ellipse.Fill>
+				</Ellipse>
+				<TextBlock Text="+" FontSize="35" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="GreenYellow" FontWeight="Bold"/>
+			</Grid>
 		</Grid>
 	</Grid>
 </Page>
