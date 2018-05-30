@@ -98,11 +98,11 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Daliyitem.cs" />
+    <Compile Include="Models\Diaryitem.cs" />
     <Compile Include="Models\Emojitem.cs" />
     <Compile Include="NavMenuItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\Dailys.cs" />
+    <Compile Include="ViewModels\Diarys.cs" />
     <Compile Include="ViewModels\emojis.cs" />
     <Compile Include="Views\Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
@@ -151,6 +151,9 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.0.8</Version>
+    </PackageReference>
+    <PackageReference Include="SQLitePCL">
+      <Version>3.8.7.2</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup />

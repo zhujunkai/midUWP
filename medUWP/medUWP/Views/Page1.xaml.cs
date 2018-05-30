@@ -56,6 +56,7 @@ namespace medUWP.Views
 
 		private async void Clear_click(object sender, RoutedEventArgs e)
 		{
+
 			StorageFile file = await Package.Current.InstalledLocation.GetFileAsync("Assets\\StoreLogo.png");
 		}
 	}
